@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		input[type=text], input[type=email], input[type=date], input[type=tel], select {
+			width: 20%;
+			padding: 10px 10px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		input[type=submit] {
+			width: 10%;
+			height: 5%;
+			background-color: teal;
+			color: white;
+			padding: 10px 10px;
+			margin: 8px 0;
+			margin-left: 10px;
+			border: none;
+			border-radius: 15px;
+			cursor: pointer;
+			font-family: cursive;
+		}
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+		::placeholder {
+			font-family: cursive;
+			text-align: center;
+		}
+		h2 {
+			color: black;
+			font-family: cursive;
+			text-decoration: underline;
+		}
+		a {
+			font-family: cursive;
+			color: teal;
+			text-decoration: none;
+		}
+	</style>
+	<title>Create Account</title>
+</head>
+<body>
+	<center>
+		<h2>STUDENT IDENTIFICATION</h2>
+		<form method="POST" action="">
+			<input type="text" name="firstname" placeholder="Enter First Name" required="required">
+			<input type="text" name="lastname" placeholder="Enter Last Name" required="required">
+			<input type="email" name="email" placeholder="Enter Email" required="required">
+			<input type="date" name="dob" placeholder="Date of Birth" required="required">
+			<input type="tel" name="phone" placeholder="Enter Phone Number" required="required"><br><br>
+			<input type="submit" name="regist" value="regist">
+		</form>
+	</center>
+</body>
+</html>
