@@ -1,1 +1,1 @@
-![System Screenshot](./photo/Screenshot2024-12-01145217.png)
+![System Screenshot](./photos/Screenshot2024-12-01145217.png)
